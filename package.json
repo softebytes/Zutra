@@ -1,0 +1,27 @@
+{
+  "name": "Zutra",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build --public-url ./ ./src/index.html --no-minify"
+  },
+  "keywords": [],
+  "author": "",
+  "homepage": "https://softebytes.github.io/Zutra",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.1",
+    "bootstrap-icons": "^1.5.0",
+    "gh-pages": "^3.2.2"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.6",
+    "postcss": "^8.3.5",
+    "sass": "^1.34.1"
+  }
+}
