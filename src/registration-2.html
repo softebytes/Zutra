@@ -109,7 +109,7 @@
           </div>
           </div>
           <div class="container" style="padding-left: 5%; padding-right: 5%;">
-            <form class="d-flex flex-column gap-2">
+            <form action="registration-2-copy.html" class="d-flex flex-column gap-2 needs-validation " novalidate> 
             <div class="row align-items-baseline">
               <div class="col-sm-5">
                 <h4>Name of Your Brand</h4>
@@ -132,9 +132,12 @@
                 <h4>Contact</h4>
               </div>
               <div class="col-sm-7">
-                <div class="input-group mb-3">
+                <div class="input-group mb-3 has-validation">
                   <span class="input-group-text" id="basic-addon1">+91</span>
-                  <input type="text" class="form-control" placeholder="contact" aria-label="contact" aria-describedby="basic-addon1">
+                  <input type="text" class="form-control" placeholder="contact" aria-label="contact" aria-describedby="basic-addon1" pattern="^\d{10}$" required>
+                  <div class="invalid-feedback">
+                    Please enter a valid 10 digit mobile number
+                  </div>
                 </div>
               </div>         
             </div>
@@ -203,7 +206,7 @@
             <div class="row align-items-center">
               <div class="col-sm-12 d-flex justify-content-end align-items-center">
                 <a href="#" class="link-dark">Cancel</a>
-                <a class="btn btn-dark d-flex justify-content-center" href="registration-2-copy.html" style="min-width: 20%; margin-left: 12px;" role="button">
+                <button class="btn btn-dark d-flex justify-content-center" style="margin-left: 12px;" type="submit">
                   Next
                 </a>
               </div>
