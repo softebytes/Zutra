@@ -100,12 +100,21 @@
           <div class="container-fluid">
               <div class="row align-items-center justify-content-center" style="height: 89vh;">
                   <div class="col-lg-7 d-flex flex-column" style="height: auto;padding-right: 13rem;padding-left: 13rem;">
+                    <form action="sign-in-otp.html" class="needs-validation" novalidate="">
                       <h1 class="fw-bold text-center">Welcome back,</h1>
                       <br><br>
                       <label class="form-label fs-5">Login / Sign Up</label>
                       <div class="input-group">
-                        <span class="input-group-text" id="basic-addon1" style="background: none;">+91</span>
-                        <input type="text" class="form-control fs-6" placeholder="Mobile Number *" aria-label="Username" aria-describedby="basic-addon1">
+                        <select class="input-group-text" id="basic-addon1" style="background: none;">
+                          <option value="+91">+91</option>
+                          <option value="+97">+97</option>
+                          <option value="+62">+62</option>
+                          <option value="+73">+73</option>
+                        </select>
+                        <input type="tel" class="form-control fs-6" placeholder="Mobile Number *" aria-label="phonenumber" aria-describedby="basic-addon1" pattern="^\d{10}$" required="">
+                        <div class="invalid-feedback">
+                          Please enter a valid 10 digit mobile number
+                        </div>
                       </div><br>
                       <div class="form-check fs-6">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -113,21 +122,45 @@
                           Remember me
                         </label>
                       </div> <br>
-                      <button type="button" class="btn btn-dark w-100 d-flex justify-content-center align-content-center " style="position: relative;">
-                        <h6 class="animate w-100" style="margin: 0px;">SIGN IN</h6>
+                      <button type="submit" class="btn btn-dark w-100 d-flex justify-content-center align-content-center " style="position: relative;">
+                       <h6 class="animate w-100" style="margin: 0px;">SIGN IN</h6>
                          <span class="icon-animate" id="fade-animate" style="position:absolute;right:5%;"><i class="fas fa-arrow-right"></i></span></button>
                       <br><br>
                       <p class="text-center mb-0">Not a Member ?</p>
                       <h5 class="fw-bold text-center"><u>Sign Up</u></h5>
-                      <a href="sign-in-otp.html">OTP</a>
-                  </div>
+                  </form></div>
                   <div class="col-lg-5 d-flex flex-column justify-content-end align-items-center" style="height: 89vh; background-color: rgb(185, 185, 185);">
                     <div><h1 class="text-white fw-bold" style="padding-bottom: 13rem;">NAMASTE</h1></div>
                     <div><h1 class="pb-5 fw-bold" style="color: white;">नमस्ते</h1></div>
                 </div>
+              
               </div>
           </div>
       </section>
-<script src="src.410bf700.js"></script>
+<script>// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'; // Fetch all the forms we want to apply custom Bootstrap validation styles to
+
+  var forms = document.querySelectorAll('.needs-validation'); // Loop over them and prevent submission
+
+  Array.prototype.slice.call(forms).forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      if (!form.checkValidity()) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+
+      form.classList.add('was-validated');
+    }, false);
+  });
+})();
+
+document.querySelector(".animate").addEventListener("mouseenter", function () {
+  document.getElementById("fade-animate").classList.add("fade-in");
+});
+document.querySelector(".animate").addEventListener("mouseout", function () {
+  document.getElementById("fade-animate").classList.remove("fade-in");
+});</script>
+<script src="src.6c99e954.js"></script>
 </body>
 </html>
