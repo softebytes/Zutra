@@ -98,8 +98,8 @@
       </header>
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col-sm-3" style="background: grey;height: 88vh;"></div>
-          <div class="col-sm-8 d-flex flex-column justify-content-around align-items-center" style="height: 88vh;">
+          <div class="col-sm-3" style="background: grey;min-height: 90vh;"></div>
+          <div class="col-sm-8 d-flex flex-column justify-content-around align-items-center" style="min-height: 90vh;">
             <div class="d-flex flex-column align-items-center">
             <h1 class="fw-bold text-uppercase">Registration</h1>
             <h3 style="color: grey;">Become a verified seller</h3>
@@ -118,7 +118,7 @@
                 <input class="form-control" placeholder="Address" name="address" type="text">
                 <div class="d-flex gap-3 mt-2">
                   <div class="input-group has-validation">
-                    <input type="tel" class="form-control" id="validationPinCode" placeholder="Pin Code" aria-describedby="inputGroupPrepend" pattern="^\d{6}$" required="">
+                    <input type="tel" class="form-control" id="validationPinCode" maxlength="6" placeholder="Pin Code" aria-describedby="inputGroupPrepend" pattern="^\d{6}$" required="">
                     <div class="invalid-feedback">
                       Please enter a valid PinCode
                     </div>
@@ -153,13 +153,13 @@
               <div class="col-sm-7">
                 <div class="d-flex gap-3">
                   <div class="form-check w-50">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="socialmedia_yes" checked="">
                     <label class="form-check-label" for="flexRadioDefault1">
                       Yes
                     </label>
                   </div>
                   <div class="form-check w-50">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked="">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="socialmedia_no">
                     <label class="form-check-label" for="flexRadioDefault2">
                       No
                     </label>
@@ -173,8 +173,8 @@
               </div>
               <div class="col-sm-7">
                 <div class="d-flex gap-3">
-                  <input class="form-control has-validation" placeholder="Instagram Handle" name="InstHndl" type="text" required="">
-                  <input class="form-control has-validation" placeholder="FaceBook Handle" name="FbkHndl" type="text" required="">                  
+                  <input class="form-control social-media has-validation" placeholder="Instagram Handle" name="InstHndl" type="text" required="">
+                  <input class="form-control social-media has-validation" placeholder="FaceBook Handle" name="FbkHndl" type="text" required="">                  
                 </div>             
                 
               </div>         
@@ -215,10 +215,29 @@
           </div>
 
           </div>
-          <div class="col-sm-1" style="background: grey;height: 88vh;"></div>
+          <div class="col-sm-1" style="background: grey;min-height: 90vh;"></div>
         </div>
       </div>
+<script>document.getElementById("socialmedia_no").addEventListener("change", function () {
+  if (this.checked) {
+    var x = document.querySelectorAll(".social-media");
 
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("has-validation");
+      x[i].setAttribute("disabled", "1");
+    }
+  }
+});
+document.getElementById("socialmedia_yes").addEventListener("change", function () {
+  if (this.checked) {
+    var x = document.querySelectorAll(".social-media");
+
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.add("has-validation");
+      x[i].removeAttribute("disabled");
+    }
+  }
+});</script>
 <script src="src.f58a99c2.js"></script>
 </body>
 </html>
