@@ -15378,7 +15378,7 @@ textarea.form-control-lg {
 .navbar-collapse .dropdown-toggle::after {
   display: none;
 }
-.navbar-collapse .nav-item {
+.navbar-collapse .nav-link {
   font-weight: 600;
 }
 .navbar-collapse .form-control {
@@ -15398,6 +15398,10 @@ textarea.form-control-lg {
   background: #292929;
   width: 1.5px;
   height: auto;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #616161;
 }
 
 .section-1 {
@@ -15566,4 +15570,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=custom.bcdef26d.css.map */
+/*# sourceMappingURL=custom.62c7d1d0.css.map */
