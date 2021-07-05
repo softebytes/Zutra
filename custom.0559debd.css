@@ -15400,8 +15400,23 @@ textarea.form-control-lg {
   height: auto;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #616161;
+.nav-item::after {
+  content: " ";
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: black;
+  transition: opacity 300ms ease-in-out;
+}
+
+.nav-item:hover::after {
+  content: " ";
+  opacity: 1;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: black;
 }
 
 .section-1 {
@@ -15570,4 +15585,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=custom.62c7d1d0.css.map */
+/*# sourceMappingURL=custom.0559debd.css.map */
