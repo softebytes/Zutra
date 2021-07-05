@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../scss/custom.scss">
+    <link rel="stylesheet" href="custom.0559debd.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet"> 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-    <title>Registration Part 2</title>
+    <title>Registration Part 1</title>
 </head>
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light" style="background:white; border-bottom: 1px solid grey;">
         <div class="container-fluid" style="padding-left: 40px ;padding-right: 40px;">
-          <a class="navbar-brand" href="index.html"><img src="../images/ZUTRA-LOGO-BLACK (1).png"style="max-width: 10rem;"></a>
+          <a class="navbar-brand" href="index.html"><img src="ZUTRA-LOGO-BLACK (1).190e3184.png" style="max-width: 10rem;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -98,7 +98,7 @@
                   <li>
                       <a class="nav-link p-0" href="#"><i class="far fa-heart"></i></a>
                       </li>
-                      <li >
+                      <li>
                         <a class="nav-link p-0" href="#"><i class="far fa-user"></i></a>
                         </li>
                    </ul>
@@ -112,113 +112,123 @@
           <div class="col-sm-8 d-flex flex-column justify-content-around align-items-center" style="min-height: 90vh;">
             <div class="d-flex flex-column align-items-center">
             <h1 class="fw-bold text-uppercase">Registration</h1>
-            <h3 style="color: grey;">Become a verified seller</h3>
+            <h3 style="color:grey">Become a verified seller</h3>
             <div class="d-flex gap-2">
-            <span style="height:10px; width:10px; border-radius: 5px; background:rgb(255, 255, 255);border: 1px solid"></span>
             <span style="height:10px; width:10px; border-radius: 5px; background:black;"></span>
+            <span style="height:10px; width:10px; background:rgb(255, 255, 255); border:1px solid; border-radius: 5px;"></span>
           </div>
           </div>
-          <div class="container" style="padding-left: 20%; padding-right: 20%;">
-            <form action="registration-complete.html" class="d-flex flex-column gap-4 needs-validation" novalidate>
+          <div class="container " style="padding-left: 20%; padding-right: 20%;">
+            <form action="registration-2-copy.html" class="d-flex flex-column gap-3 needs-validation " novalidate=""> 
             <div class="row align-items-baseline">
               <div class="col-sm-5">
-                <h5>City</h5>
+                <h5>Name of Your Brand</h5>
               </div>
               <div class="col-sm-7">
-                <input class="form-control" placeholder="Address" name="address" type="text" required>
-                <div class="d-flex gap-2 mt-2 align-items-start">
-                  <div class="input-group has-validation">
-                    <input type="tel" class="form-control" id="validationPinCode" maxlength="6" placeholder="Pin Code" aria-describedby="inputGroupPrepend"  required>
-                    <div class="invalid-feedback">
-                      Enter a valid PinCode
-                    </div>
-                    </div>
-                <select class="form-select " aria-label="country" style="color: grey;" required>
-                  <option selected disabled>Country</option>
-                  <option value="1">India</option>
-                  <option value="2">Usa</option>
-                  <option value="3">China</option>
-                </select>
-              </div>
+                <input class="form-control" placeholder="Registered Name" name="RegName" type="text" required="">
+                <div class="invalid-feedback">
+                  Please enter name of your brand
+                </div>
               </div>
             </div>
             <div class="row align-items-baseline">
               <div class="col-sm-5">
-                <h5>Business Type</h5>
+                <h5>Established in</h5>
               </div>
               <div class="col-sm-7">
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Select business type</option>
-                  <option value="1">Wholeseller</option>
-                  <option value="2">B2B</option>
-                  <option value="3">B2C</option>
-                </select>
+                <input class="form-control" placeholder="Registered Name" name="RegName" type="date" style="color: grey;" required="">
+                <div class="invalid-feedback">
+                  Please enter registered date
+                </div>
               </div>
               
             </div>
             <div class="row align-items-baseline">
               <div class="col-sm-5">
-                <h5>On Social Media?</h5>
+                <h5>Contact</h5>
               </div>
               <div class="col-sm-7">
-                <div class="d-flex gap-3">
-                  <div class="form-check w-50">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="socialmedia_yes" checked >
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Yes
-                    </label>
-                  </div>
-                  <div class="form-check w-50">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="socialmedia_no" >
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      No
-                    </label>
+                <div class="input-group">
+                  <select class=" form-select m-0" id="basic-addon1" style="color: grey;max-width: 33%;" required="">
+                    <option value="+91" selected="">+91</option>
+                    <option value="+97">+97</option>
+                    <option value="+62">+62</option>
+                    <option value="+73">+73</option>
+                  </select>
+                  <input type="tel" class="form-control fs-6" style="border-radius: 0px 5px 5px 0px; border-left: 0px; padding-left: 4px;" maxlength="10" placeholder="|    Mobile Number *" aria-label="phonenumber" aria-describedby="basic-addon1" pattern="^\d{10}$" required="">
+                  <div class="invalid-feedback">
+                    Please enter a valid 10 digit mobile number
                   </div>
                 </div>
               </div>         
             </div>
             <div class="row align-items-baseline">
               <div class="col-sm-5">
-                <h5>Social Media Handle</h5>
+                <h5>Product Segment</h5>
+                <h6>You can select more<br> than one</h6>
               </div>
               <div class="col-sm-7">
-                <div class="d-flex gap-3">
-                  <input class="form-control social-media has-validation" placeholder="Instagram Handle" name="InstHndl" type="text" required>
-                  <input class="form-control social-media has-validation" placeholder="FaceBook Handle" name="FbkHndl" type="text" required>                  
-                </div>             
+                <div class="form-check d-inline-block">
+                  <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault" required="">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    <h6>Default checkbox </h6>
+                  </label>
+                </div>
+                <div class="form-check d-inline-block">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required="">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    <h6>Default checkbox </h6>
+                  </label>
+                </div>
+                <div class="form-check d-inline-block">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required="">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    <h6>Default checkbox </h6>
+                  </label>
+                </div>
+                <div class="form-check d-inline-block">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required="">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    <h6>Default checkbox </h6>
+                  </label>
+                </div>
+                <div class="form-check d-inline-block">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required="">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    <h6>Default checkbox </h6>
+                  </label>
+                </div>
                 
               </div>         
             </div>
             <div class="row align-items-baseline">
               <div class="col-sm-5">
-                <h5>Current online platforms used for sale</h5>
+                <h5>Your key products</h5>
               </div>
               <div class="col-sm-7">
-                <div class="form-check d-inline-block">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault">
-                    <h6>Default checkbox </h6>
-                  </label>
-                </div>
-                <div class="form-check d-inline-block">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault">
-                    <h6>Default checkbox </h6>
-                  </label>
-                </div>
-                <div class="form-check d-inline-block">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault">
-                    <h6>Default checkbox </h6>
-                  </label>
+                <input class="form-control" placeholder="Eg. Kurta, Lehenga, Bedsheet, etc" name="RegName" type="text" required="">
+              </div>
+            </div>
+            <div class="row align-items-baseline">
+              <div class="col-sm-5">
+                <h5>Avg. Pricing</h5>
+              </div>
+              <div class="col-sm-7">
+                <div class="input-group">
+                  <select class="form-select" id="inputGroupSelect01" required="">
+                    <option selected="" disabled="" value="">Choose One</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
                 </div>
               </div>
             </div>
-
             <div class="row align-items-center">
-              <div class="col-sm-12 text-end">
-                 <button class="btn btn-dark" type="submit">Done</button>
-                 <a href="registration-complete.html"></a>
+              <div class="col-sm-12 d-flex justify-content-end align-items-center">
+                <a href="#" class="link-dark">Cancel</a>
+                <button class="btn btn-dark d-flex justify-content-center" style="margin-left: 12px;" type="submit">Next</button>
+                <a href="registration-2-copy.html"></a>
               </div>
             </div>
             </form>
@@ -228,26 +238,7 @@
           <div class="col-sm-1" style="background: grey;min-height: 90vh;"></div>
         </div>
       </div>
-<script>
-  document.getElementById("socialmedia_no").addEventListener("change", function(){
-    if (this.checked){
-        const x= document.querySelectorAll(".social-media");
-        for(let i=0; i<x.length;i++){
-          x[i].classList.remove("has-validation");
-          x[i].setAttribute("disabled", "1");
-        }
-        }
-  })
-  document.getElementById("socialmedia_yes").addEventListener("change", function(){
-    if (this.checked){
-        const x= document.querySelectorAll(".social-media");
-        for(let i=0; i<x.length;i++){
-          x[i].classList.add("has-validation");
-          x[i].removeAttribute("disabled");
-        }
-        }
-  })
-</script>
-<script src="index.js"></script>
+
+<script src="src.f58a99c2.js"></script>
 </body>
 </html>

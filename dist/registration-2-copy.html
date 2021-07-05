@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../scss/custom.scss">
+    <link rel="stylesheet" href="custom.0559debd.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet"> 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
@@ -14,7 +14,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light" style="background:white; border-bottom: 1px solid grey;">
         <div class="container-fluid" style="padding-left: 40px ;padding-right: 40px;">
-          <a class="navbar-brand" href="index.html"><img src="../images/ZUTRA-LOGO-BLACK (1).png"style="max-width: 10rem;"></a>
+          <a class="navbar-brand" href="index.html"><img src="ZUTRA-LOGO-BLACK (1).190e3184.png" style="max-width: 10rem;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -98,7 +98,7 @@
                   <li>
                       <a class="nav-link p-0" href="#"><i class="far fa-heart"></i></a>
                       </li>
-                      <li >
+                      <li>
                         <a class="nav-link p-0" href="#"><i class="far fa-user"></i></a>
                         </li>
                    </ul>
@@ -119,22 +119,22 @@
           </div>
           </div>
           <div class="container" style="padding-left: 20%; padding-right: 20%;">
-            <form action="registration-complete.html" class="d-flex flex-column gap-4 needs-validation" novalidate>
+            <form action="registration-complete.html" class="d-flex flex-column gap-4 needs-validation" novalidate="">
             <div class="row align-items-baseline">
               <div class="col-sm-5">
                 <h5>City</h5>
               </div>
               <div class="col-sm-7">
-                <input class="form-control" placeholder="Address" name="address" type="text" required>
+                <input class="form-control" placeholder="Address" name="address" type="text" required="">
                 <div class="d-flex gap-2 mt-2 align-items-start">
                   <div class="input-group has-validation">
-                    <input type="tel" class="form-control" id="validationPinCode" maxlength="6" placeholder="Pin Code" aria-describedby="inputGroupPrepend"  required>
+                    <input type="tel" class="form-control" id="validationPinCode" maxlength="6" placeholder="Pin Code" aria-describedby="inputGroupPrepend" required="">
                     <div class="invalid-feedback">
                       Enter a valid PinCode
                     </div>
                     </div>
-                <select class="form-select " aria-label="country" style="color: grey;" required>
-                  <option selected disabled>Country</option>
+                <select class="form-select " aria-label="country" style="color: grey;" required="">
+                  <option selected="" disabled="">Country</option>
                   <option value="1">India</option>
                   <option value="2">Usa</option>
                   <option value="3">China</option>
@@ -148,7 +148,7 @@
               </div>
               <div class="col-sm-7">
                 <select class="form-select" aria-label="Default select example">
-                  <option selected>Select business type</option>
+                  <option selected="">Select business type</option>
                   <option value="1">Wholeseller</option>
                   <option value="2">B2B</option>
                   <option value="3">B2C</option>
@@ -163,13 +163,13 @@
               <div class="col-sm-7">
                 <div class="d-flex gap-3">
                   <div class="form-check w-50">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="socialmedia_yes" checked >
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="socialmedia_yes" checked="">
                     <label class="form-check-label" for="flexRadioDefault1">
                       Yes
                     </label>
                   </div>
                   <div class="form-check w-50">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="socialmedia_no" >
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="socialmedia_no">
                     <label class="form-check-label" for="flexRadioDefault2">
                       No
                     </label>
@@ -183,8 +183,8 @@
               </div>
               <div class="col-sm-7">
                 <div class="d-flex gap-3">
-                  <input class="form-control social-media has-validation" placeholder="Instagram Handle" name="InstHndl" type="text" required>
-                  <input class="form-control social-media has-validation" placeholder="FaceBook Handle" name="FbkHndl" type="text" required>                  
+                  <input class="form-control social-media has-validation" placeholder="Instagram Handle" name="InstHndl" type="text" required="">
+                  <input class="form-control social-media has-validation" placeholder="FaceBook Handle" name="FbkHndl" type="text" required="">                  
                 </div>             
                 
               </div>         
@@ -228,26 +228,26 @@
           <div class="col-sm-1" style="background: grey;min-height: 90vh;"></div>
         </div>
       </div>
-<script>
-  document.getElementById("socialmedia_no").addEventListener("change", function(){
-    if (this.checked){
-        const x= document.querySelectorAll(".social-media");
-        for(let i=0; i<x.length;i++){
-          x[i].classList.remove("has-validation");
-          x[i].setAttribute("disabled", "1");
-        }
-        }
-  })
-  document.getElementById("socialmedia_yes").addEventListener("change", function(){
-    if (this.checked){
-        const x= document.querySelectorAll(".social-media");
-        for(let i=0; i<x.length;i++){
-          x[i].classList.add("has-validation");
-          x[i].removeAttribute("disabled");
-        }
-        }
-  })
-</script>
-<script src="index.js"></script>
+<script>document.getElementById("socialmedia_no").addEventListener("change", function () {
+  if (this.checked) {
+    var x = document.querySelectorAll(".social-media");
+
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("has-validation");
+      x[i].setAttribute("disabled", "1");
+    }
+  }
+});
+document.getElementById("socialmedia_yes").addEventListener("change", function () {
+  if (this.checked) {
+    var x = document.querySelectorAll(".social-media");
+
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.add("has-validation");
+      x[i].removeAttribute("disabled");
+    }
+  }
+});</script>
+<script src="src.f58a99c2.js"></script>
 </body>
 </html>
