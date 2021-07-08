@@ -15575,7 +15575,7 @@ textarea.form-control-lg {
 .rate {
   float: left;
   height: 46px;
-  padding: 0 10px;
+  padding: 0px;
 }
 
 .rate:not(:checked) > input {
@@ -15624,4 +15624,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=custom.4425c929.css.map */
+/*# sourceMappingURL=custom.68efe1f9.css.map */
