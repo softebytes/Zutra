@@ -15615,6 +15615,47 @@ textarea.form-control-lg {
   color: #c59b08;
 }
 
+.rating {
+  border: none;
+  float: left;
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label:before {
+  margin: 0px;
+  font-size: 1.7rem;
+  display: inline-block;
+  content: "☆";
+}
+
+.rating > .half:before {
+  content: "☆";
+  position: absolute;
+}
+
+.rating > label {
+  color: #070707;
+  float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #FFD700;
+}
+
+/* hover previous stars in list */
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+  color: #FFED85;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -15624,4 +15665,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=custom.b94752c2.css.map */
+/*# sourceMappingURL=custom.ea552b82.css.map */
