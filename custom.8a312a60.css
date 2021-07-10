@@ -15656,6 +15656,20 @@ textarea.form-control-lg {
   color: #FFED85;
 }
 
+.dates-toggle {
+  position: relative;
+}
+
+.date-active::after {
+  content: " ";
+  position: absolute;
+  background: black;
+  width: 100px;
+  height: 2px;
+  top: 47px;
+  left: 0px;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -15665,4 +15679,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=custom.ea552b82.css.map */
+/*# sourceMappingURL=custom.8a312a60.css.map */

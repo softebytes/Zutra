@@ -108,66 +108,43 @@
       </header>
       <div class="container-fluid">
         <div class="row" style="min-height:89vh;">
-          <div class="col-sm-3" style="min-height: 89vh;background:grey;"></div>
-          <div class="col-sm-9">
-            <div class="container pt-4 d-flex flex-column justify-content-start gap-4" style="min-height: 90vh;">
-              <div class="d-flex flex-column gap-3">
-              <div style="padding-left: 4rem; padding-right: 4rem;">
-                <h1 class="fw-bold">SHIVANI SAREE SHOP </h1>
-                <div class="d-flex justify-content-between">
-                <h5>Church Road, Mumbai</h5>
-                <span>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-                </span>
-              </div>
-              </div>
-              <div style="padding-left: 4rem; padding-right: 4rem;">
-                <h4 class="fw-bold m-0">BOOK A VIDEO APPOINTMENT</h4>
-                <div class="d-flex justify-content-between">
-                <h5>Choose your preferred date and time</h5>
-              </div>
-              </div>
-              </div> 
-              <div class="d-flex gap-5 justify-content-between align-items-center" style="padding: 1rem 1rem;border-bottom: 1px solid lightgrey;border-top: 1px solid lightgrey;">
-                <i class="fas fa-chevron-circle-left"></i>
-                <h5>Today</h5>
-                <div class="dates-toggle">
-                <h5 class="fw-bold date-active">Tomorrow</h5>
+          <div class="col-sm-4" style="min-height: 89vh;background:grey;"></div>
+          <div class="col-sm-8">
+            <div class="container pt-4 d-flex flex-column justify-content-start gap-4" style="min-height: 90vh; padding-left: 3rem; padding-right: 4rem;">
+             <div class="d-flex justify-content-between" style="padding-left: 1rem; padding-bottom: 1rem; border-bottom: 1px solid  lightgrey;">
+               <div>
+               <h1 class="text-uppercase fw-bold">Shivani Saree Shop</h1>
+             </div>
+             <div style="padding-top:1rem;" class="text-end">
+               <h6 class="fw-bold">Tomorrow, 17th May</h6>
+               <h6 class="fw-bold">8:00PM</h6>
+             </div>
+             </div>
+             <h5 style="padding-left: 1rem;padding-right: 4rem;">Please provide the details of your friends or family and we will send them the joining link for the appointment</h5>
+             <form action="book-online-completed.html">
+             <div class="d-flex flex-column justify-content-evenly" style="padding:.5rem 7rem 1rem 1rem;">
+                 <h5 class="fw-bold">Guest 01</h5>
+                 <div class="d-flex justify-content-between gap-5 align-items-center" style="padding-top: 1rem;">
+                   <label style="min-width: 20%;"><h5 class="m-0">Name</h5></label>
+                   <input class="w-50 form-control" type="text" name="FirstName" placeholder="First Name" style="border:none;border-bottom: 1px solid lightgrey;">
+                   <input class="w-50 form-control" type="text" name="LastName" placeholder="Last Name" style="border:none; border-bottom: 1px solid lightgrey;">
+                 </div>
+                  <div class="d-flex justify-content-between gap-5 align-items-center" style="padding-top: 1rem;">
+                    <label style="min-width: 20%;"><h5 class="m-0">Whatsapp No.</h5></label>
+                    <input class="w-100 form-control" type="tel" name="PhoneNumber" minlength="10" maxlength="10" placeholder="+91   |   Mobile number" style="border:none;border-bottom: 1px solid lightgrey;">
+                  </div>
+                  </div>
+             <div class="d-flex flex-column justify-content-evenly" style="padding:.5rem 7rem 1rem 1rem;">
+              <div class="d-flex align-items-center gap-5">
+              <h5 class="fw-bold m-0">Add more guest</h5>
+              <i class="fas fa-plus-circle"></i>
                 </div>
-                <h5>Tuesday, 18 May</h5>
-                <h5>Wednesday, 19 May</h5>
-                <i class="fas fa-chevron-circle-right"></i>
+                </div>  
+                  <div class="pt-4 mb-4 w-100 d-flex justify-content-end align-items-center">
+                  <button class="btn btn-dark d-flex justify-content-between align-items-center p-3" type="submit" style="font-size: 14px; width: 20%; height: 3rem;"><span>CONFIRM</span><span>></span> </button>
+                  <a href="book-online-completed.html"></a>    
                 </div>
-                <form action="book-online-visit-2.html">
-                <div class="d-flex flex-column  gap-4" style="padding: 1rem 4rem;">
-                  <div class="d-flex justify-content-between w-100 gap-5 ">
-                  <button class="btn btn-outline-dark w-50" value="11" type="submit">11:00 AM</button>
-                  <button class="btn btn-outline-dark w-50" value="14">02:00 PM</button>
-                  <button class="btn btn-outline-dark w-50" value="14" disabled="">02:00 PM</button>
-                  <button class="btn btn-outline-dark w-50" value="14" disabled="">02:00 PM</button>
-                </div>
-                <div class="d-flex justify-content-between w-100 gap-5 ">
-                  <button class="btn btn-outline-dark w-50" value="11">11:00 AM</button>
-                  <button class="btn btn-outline-dark w-50" value="14">02:00 PM</button>
-                  <button class="btn btn-outline-dark w-50" value="14" disabled="">02:00 PM</button>
-                  <button class="btn btn-outline-dark w-50" value="14" disabled="">02:00 PM</button>
-                </div>
-                <div class="d-flex justify-content-between w-100 gap-5 ">
-                  <button class="btn btn-outline-dark w-50" value="11">11:00 AM</button>
-                  <button class="btn btn-outline-dark w-50" value="14">02:00 PM</button>
-                  <button class="btn btn-outline-dark w-50" value="14" disabled="">02:00 PM</button>
-                  <button class="btn btn-outline-dark w-50" value="14" disabled="">02:00 PM</button>
-                </div>
-                <div class="d-flex justify-content-end">
-                <a href="index.html" class="fw-bold">Go Back</a>
-              </div>
-              </div>
                 </form>
-                <a href="book-online-visit-2.html"></a>
             </div>
           </div>
         </div>
