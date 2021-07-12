@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="custom.8a312a60.css">
+    <link rel="stylesheet" href="custom.c3b8605f.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">
      
@@ -134,10 +134,26 @@
                     <input class="w-100 form-control" type="tel" name="PhoneNumber" minlength="10" maxlength="10" placeholder="+91   |   Mobile number" style="border:none;border-bottom: 1px solid lightgrey;">
                   </div>
                   </div>
+              <div class="guest-append">
+             <div class="d-flex flex-column justify-content-evenly" style="padding:.5rem 7rem 1rem 1rem;">
+                    <h5 class="fw-bold">Guest 02</h5>
+                    <div class="d-flex justify-content-between gap-5 align-items-center" style="padding-top: 1rem;">
+                      <label style="min-width: 20%;"><h5 class="m-0">Name</h5></label>
+                      <input class="w-50 form-control" type="text" name="FirstName" placeholder="First Name" style="border:none;border-bottom: 1px solid lightgrey;">
+                      <input class="w-50 form-control" type="text" name="LastName" placeholder="Last Name" style="border:none; border-bottom: 1px solid lightgrey;">
+                    </div>
+                     <div class="d-flex justify-content-between gap-5 align-items-center" style="padding-top: 1rem;">
+                       <label style="min-width: 20%;"><h5 class="m-0">Whatsapp No.</h5></label>
+                       <input class="w-100 form-control" type="tel" name="PhoneNumber" minlength="10" maxlength="10" placeholder="+91   |   Mobile number" style="border:none;border-bottom: 1px solid lightgrey;">
+                     </div>
+                   </div>
+              </div>
+              <div class="guest-append-div">
              <div class="d-flex flex-column justify-content-evenly" style="padding:.5rem 7rem 1rem 1rem;">
               <div class="d-flex align-items-center gap-5">
               <h5 class="fw-bold m-0">Add more guest</h5>
-              <i class="fas fa-plus-circle"></i>
+              <i class="fas fa-plus-circle" id="guest-append-btn"></i>
+                </div>
                 </div>
                 </div>  
                   <div class="pt-4 mb-4 w-100 d-flex justify-content-end align-items-center">
@@ -149,6 +165,10 @@
           </div>
         </div>
       </div>
+      <script>document.getElementById("guest-append-btn").addEventListener("click", function () {
+  document.querySelector(".guest-append").style.display = "block";
+  document.querySelector(".guest-append-div").style.display = "none";
+});</script>
       <script src="src.f58a99c2.js"></script>
     </body>
     </html>
