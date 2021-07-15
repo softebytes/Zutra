@@ -15674,11 +15674,6 @@ textarea.form-control-lg {
   display: none;
 }
 
-.dropdown:hover .dropdown-menu {
-  display: flex;
-  margin-top: 0;
-}
-
 .shop-btn:hover {
   background: black;
   color: white;
@@ -15692,6 +15687,14 @@ textarea.form-control-lg {
   display: none;
 }
 
+.select_category.show {
+  display: block;
+}
+
+.sub-cat-btn-down {
+  display: none;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -15701,4 +15704,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=custom.9ae3e392.css.map */
+/*# sourceMappingURL=custom.f6783de8.css.map */
