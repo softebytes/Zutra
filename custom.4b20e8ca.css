@@ -15695,6 +15695,26 @@ textarea.form-control-lg {
   display: none;
 }
 
+.carousel-btn {
+  border-radius: 20px;
+}
+
+.image-overlay-shop {
+  display: none;
+}
+
+.carousel-tag-pop {
+  display: none;
+}
+
+.review-body {
+  display: none;
+}
+
+.review-body-form {
+  display: none;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -15704,4 +15724,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=custom.f6783de8.css.map */
+/*# sourceMappingURL=custom.4b20e8ca.css.map */

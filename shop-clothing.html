@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="custom.f6783de8.css">
+    <link rel="stylesheet" href="custom.4b20e8ca.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">
      
@@ -106,14 +106,14 @@
             </div>
           </nav>
       </header>
-    <section>
+    <section style="position: relative;">
         <div class="container-fluid" style="padding: 2rem 2rem 3rem 2rem;">
             <div class="row align-items-end">
                 <div class="col-sm-6">
                  <h5>
                      Home / Category / Jewellery
                  </h5>
-                 <h2 class="fw-bold text-uppercase">Clothing</h2>
+                 <h2 class="fw-bold text-uppercase">Clothing</h2>         
                 </div>
                 <div class="col-sm-6">
                     <div class="input-group d-flex justify-content-end">
@@ -130,6 +130,62 @@
                       </div>
                 </div>
                 </div>
+            </div>
+            <div class="container-fluid" style="position: absolute;top: 0; z-index: 999;">
+              <div class="row justify-content-center p-4 image-overlay-shop " style="min-height: 89vh;">
+                <div class="col-sm-8 d-flex flex-column gap-3 pt-3 px-4" style=" z-index:2;min-height: 75vh;background: rgb(255, 255, 255);">
+                  <div class="d-flex justify-content-end pb-3">
+                    <i class="fas fa-times-circle fa-2x carousel-btn-modal-close" style="cursor: pointer;"></i>
+                  </div>
+                  <div class="d-flex gap-3" style="min-height: 65%;">
+                    <div style="background: grey;width: 70%;">
+                      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="min-height: 100%;width:90%;">
+                        <div class="carousel-indicators">
+                          <button type="button" style="height:5px;width:5px;border-radius:5px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-btn" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" style="height:5px;width:5px;border-radius:5px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" style="height:5px;width:5px;border-radius:5px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            Slide 1
+                          </div>
+                          <div class="carousel-item">
+                            Slide 2
+                          </div>
+                          <div class="carousel-item">
+                            Slide 3
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 d-flex flex-column justify-content-between">
+                      <div style="min-height: 48%;background: grey;"></div>
+                      <div style="min-height: 48%;background: grey;"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex gap-3 justify-content-between">
+                    <div style="height:90px; width:100%; background: grey;"></div>
+                    <div style="height:90px; width:100%; background: grey;"></div>
+                    <div style="height:90px; width:100%; background: grey;"></div>
+                    <div style="height:90px; width:100%; background: grey;"></div>
+                    <div style="height:90px; width:100%; background: grey;"></div>
+                    <div style="height:90px; width:100%; background: grey;"></div>
+                    <div style="height:90px; width:100%; background: grey;"></div>
+                    <div style="height:90px; width:100%; background: grey;"></div>
+                    <div style="height:90px; width:100%; background: grey;"></div>
+
+                  </div>
+                </div>
+                <div style="width: 100%;height:100%;background: grey;opacity: .7; position: absolute; top:0;"></div>
+              </div>
             </div>
         
     </section>
@@ -280,11 +336,11 @@
                 <div class="col-sm-8 p-0 m-0">
                     <div class="d-flex" style="box-shadow: 2px 2px 4px rgb(233, 233, 233);">
                     <div class="col-sm-5 " style="background: lightgrey;">
-                        <div id="carouselExampleControls" class="carousel slide d-flex align-items-center" data-bs-ride="carousel" style="min-height: 100%;">
+                        <div id="carouselExampleControls" class="carousel slide d-flex align-items-center carousel-btn-modal" data-bs-ride="carousel" style="min-height: 100%;cursor: pointer;">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
                                 <div class="d-flex justify-content-center">
-                                <h1>Image 1</h1>
+                                <h1>Image 3</h1>
                               </div>
                               </div>
                               <div class="carousel-item">
@@ -346,7 +402,6 @@
                     </div>
                 </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -410,17 +465,25 @@
         
       </section>
       </footer>
-      <script>/* document.querySelector(".cat-btn-down-1").addEventListener("click",function(){
-              document.querySelector(".select_category-1").style.display="block";
-              document.querySelector(".cat-btn-down-1").style.display="none";
-              document.querySelector(".cat-btn-up-1").style.display="block";
-          });*/
+      <script>document.querySelector(".carousel-btn-modal").addEventListener("click", function () {
+  document.querySelector(".image-overlay-shop").style.display = "flex";
+  document.body.style.overflow = "hidden";
+});
+document.querySelector(".carousel-btn-modal-close").addEventListener("click", function () {
+  document.querySelector(".image-overlay-shop").style.display = "none";
+});
+/* document.querySelector(".cat-btn-down-1").addEventListener("click",function(){
+     document.querySelector(".select_category-1").style.display="block";
+     document.querySelector(".cat-btn-down-1").style.display="none";
+     document.querySelector(".cat-btn-up-1").style.display="block";
+ });*/
 
 /*document.querySelectorAll(".cat-btn-down")[0].addEventListener("click",function(){
      document.querySelectorAll(".cat-parent")[0].childNodes[3].style.display="block";
      document.querySelectorAll(".cat-btn-down")[0].style.display="none";
      document.querySelector(".cat-btn-up").style.display="block";
  }); */
+
 var x = document.querySelectorAll(".cat-btn-down");
 var y = document.querySelectorAll(".select_category");
 
