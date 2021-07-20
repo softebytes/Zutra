@@ -619,10 +619,14 @@ document.querySelector(".review-form-btn").addEventListener("click", function ()
   document.querySelector(".review-body").style.display = "none";
   document.querySelector(".review-body-form").style.display = "block";
 });
-document.querySelectorAll(".review-close").addEventListener("click", function () {
-  this.parentNode.parentNode.style.display = "none";
-  console.log("logging");
-});</script>
+var x = document.querySelectorAll(".review-close");
+
+for (var i = 0; i < x.length; i++) {
+  x[i].addEventListener("click", function () {
+    this.parentNode.parentNode.style.display = "none";
+    console.log("logging");
+  });
+}</script>
         <script src="src.f58a99c2.js"></script>
       </body>
       </html> 
