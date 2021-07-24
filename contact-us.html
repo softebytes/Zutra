@@ -112,21 +112,36 @@
                 <div class="col-sm-3" style="min-height: 95vh;background: grey;"></div>
                 <div class="col-sm-7 p-0">
                   <h2 class="fw-bold text-uppercase text-center p-3">we would love to<br> hear from you..</h2>
-                  <form class="form-control-sm d-flex flex-column gap-2" style="padding:2rem 1rem;" action="registration-2.html">
-                    <div class="d-flex align-items-end gap-2 justify-content-center">
-                      <label class="form-label fs-5 m-0" style="width: 31%;">Name</label>
+                  <form action="registration-2.html" class="form-control-sm d-flex flex-column gap-2 needs-validation" novalidate="" style="padding:2rem 1rem;">
+                    <div class="d-flex align-items-start gap-2 justify-content-center">
+                      <label class="form-label fs-5 pt-2" style="width: 31%;">Name</label>
                       <div class="d-flex gap-2" style="width:60%;">
-                      <input type="text" class="form-control w-50 " placeholder="First Name*" id="contact-fname" style="width: 30%;border:none;border-bottom:1px solid lightgrey">
-                      <input type="text" class="form-control w-50" placeholder="Last Name*" id="contact-lname" style="width: 30%;border:none;border-bottom:1px solid lightgrey">
+                        <div class="w-50">
+                      <input type="text" class="form-control w-100 " required="" placeholder="First Name*" id="contact-fname" style="width: 30%;border:none;border-bottom:1px solid lightgrey">
+                      <div class="invalid-feedback">
+                        Please enter First Name 
+                      </div>
+                      </div>
+                      <div class="w-50">
+                      <input type="text" class="form-control w-100" required="" placeholder="Last Name*" id="contact-lname" style="width: 30%;border:none;border-bottom:1px solid lightgrey">
+                      <div class="invalid-feedback">
+                        Please enter Last Name 
+                      </div>   
                     </div>
                     </div>
-                    <div class="d-flex align-items-end gap-2 justify-content-center">
+                    </div>
+                    <div class="d-flex align-items-start gap-2 justify-content-center">
                       <label class="form-label fs-5 m-0" style="width: 31%;">Email</label>
-                      <input type="email" class="form-control" placeholder="Email*" id="contact-email" style="width: 60%;border:none;border-bottom:1px solid lightgrey">
+                      <div style="width: 60%;"> 
+                      <input type="email" class="form-control" required="" placeholder="Email*" id="contact-email" style="width: 100%;border:none;border-bottom:1px solid lightgrey">
+                      <div class="invalid-feedback">
+                        Please enter a valid email address
+                      </div>
+                      </div>
                     </div>
                     <div class="d-flex align-items-end gap-2 justify-content-center">
                       <label class="form-label fs-5 m-0" style="width: 31%;">WhatsApp No.</label>
-                      <input type="email" class="form-control" placeholder="+91   |   Mobile Number*" id="contact-email" style="width: 60%;border:none;border-bottom:1px solid lightgrey">
+                      <input type="tel" required="" maxlength="10" minlength="10" class="form-control" placeholder="+91   |   Mobile Number*" id="contact-email" style="width: 60%;border:none;border-bottom:1px solid lightgrey">
                     </div>
                     <div class="d-flex align-items-start gap-2 justify-content-center">
                       <label class="form-label fs-5 m-0" style="width: 31%;">Message</label>
