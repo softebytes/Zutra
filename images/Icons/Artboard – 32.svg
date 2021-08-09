@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-Artboard_32">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_32" data-name="Artboard – 32" clip-path="url(#clip-Artboard_32)">
+    <rect width="60" height="60" fill="#fff"/>
+    <path id="Icon_material-cancel" data-name="Icon material-cancel" d="M21,3A18,18,0,1,0,39,21,17.984,17.984,0,0,0,21,3Zm9,24.462L27.462,30,21,23.538,14.538,30,12,27.462,18.462,21,12,14.538,14.538,12,21,18.462,27.462,12,30,14.538,23.538,21Z" transform="translate(9 9)"/>
+  </g>
+</svg>

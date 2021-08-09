@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <clipPath id="clip-Artboard_54">
+      <rect width="120" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_54" data-name="Artboard – 54" clip-path="url(#clip-Artboard_54)">
+    <rect width="120" height="120" fill="#fff"/>
+    <path id="Icon_metro-upload" data-name="Icon metro-upload" d="M35.411,41.388h9.383V22.622H58.869L40.1,3.856,21.337,22.622H35.411ZM49.486,30.832v7.236L70.969,46.08,40.1,57.59,9.237,46.08,30.72,38.068V30.832L2.571,41.388V60.154L40.1,74.229,77.635,60.154V41.388Z" transform="translate(19.897 20.958)" opacity="0.1"/>
+  </g>
+</svg>

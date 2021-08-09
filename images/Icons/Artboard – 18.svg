@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166" height="171" viewBox="0 0 166 171">
+  <defs>
+    <clipPath id="clip-Artboard_18">
+      <rect width="166" height="171"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_18" data-name="Artboard – 18" clip-path="url(#clip-Artboard_18)">
+    <rect width="166" height="171" fill="#fff"/>
+    <g id="Component_106_2" data-name="Component 106 – 2" transform="translate(11 9.511)">
+      <path id="Icon_ionic-md-arrow-dropdown" data-name="Icon ionic-md-arrow-dropdown" d="M0,0,30.8,38.311,61.594,0Z" transform="translate(62.845 104.389) rotate(-90)"/>
+      <g id="Ellipse_34" data-name="Ellipse 34" transform="translate(0 0)" fill="none" stroke="#000" stroke-width="3">
+        <circle cx="74" cy="74" r="74" stroke="none"/>
+        <circle cx="74" cy="74" r="72.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

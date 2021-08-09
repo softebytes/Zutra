@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <clipPath id="clip-Artboard_52">
+      <rect width="120" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_52" data-name="Artboard – 52" clip-path="url(#clip-Artboard_52)">
+    <rect width="120" height="120" fill="#fff"/>
+    <g id="Icon_ionic-ios-arrow-dropright" data-name="Icon ionic-ios-arrow-dropright" transform="translate(45.375 49.375)">
+      <path id="Path_9988" data-name="Path 9988" d="M23.437,10.378a1.362,1.362,0,0,0-1.92,0L14.81,17.107a1.356,1.356,0,0,0-.042,1.87l6.609,6.63A1.355,1.355,0,1,0,23.3,23.7l-5.618-5.7,5.759-5.7A1.341,1.341,0,0,0,23.437,10.378Z" transform="translate(-5.627 -3.375)"/>
+      <path id="Path_9989" data-name="Path 9989" d="M32.625,18A14.625,14.625,0,1,1,18,3.375,14.623,14.623,0,0,1,32.625,18Zm-2.25,0A12.37,12.37,0,0,0,9.253,9.253,12.37,12.37,0,1,0,26.747,26.747,12.269,12.269,0,0,0,30.375,18Z" transform="translate(-3.375 -3.375)"/>
+    </g>
+  </g>
+</svg>

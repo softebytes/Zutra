@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-Artboard_14">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_14" data-name="Artboard – 14" clip-path="url(#clip-Artboard_14)">
+    <rect width="60" height="60" fill="#fff"/>
+    <path id="Icon_awesome-star" data-name="Icon awesome-star" d="M10.531.677,8.045,5.717l-5.561.811a1.219,1.219,0,0,0-.674,2.078l4.023,3.92-.952,5.538a1.217,1.217,0,0,0,1.766,1.283l4.975-2.615L16.6,19.347a1.218,1.218,0,0,0,1.766-1.283l-.952-5.538,4.023-3.92a1.219,1.219,0,0,0-.674-2.078L15.2,5.717,12.715.677a1.219,1.219,0,0,0-2.185,0Z" transform="translate(18.377 20.256)"/>
+  </g>
+</svg>

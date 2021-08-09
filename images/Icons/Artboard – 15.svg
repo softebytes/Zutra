@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-Artboard_15">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_15" data-name="Artboard – 15" clip-path="url(#clip-Artboard_15)">
+    <rect width="60" height="60" fill="#fff"/>
+    <g id="Group_144" data-name="Group 144" transform="translate(-90 20.255)">
+      <path id="Icon_feather-star" data-name="Icon feather-star" d="M13.247,3l3.166,6.415,7.081,1.035-5.124,4.99,1.209,7.05-6.333-3.33L6.914,22.49l1.209-7.05L3,10.45l7.081-1.035Z" transform="translate(107.47 -3)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

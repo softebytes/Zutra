@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-Artboard_25">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_25" data-name="Artboard – 25" clip-path="url(#clip-Artboard_25)">
+    <rect width="60" height="60" fill="#fff"/>
+    <path id="Icon_ionic-md-mail" data-name="Icon ionic-md-mail" d="M43.111,5.625H6.551a4.314,4.314,0,0,0-4.3,4.3V36.809a4.314,4.314,0,0,0,4.3,4.3h36.56a4.314,4.314,0,0,0,4.3-4.3V9.926A4.314,4.314,0,0,0,43.111,5.625Zm-.538,9.14L24.831,26.593,7.089,14.765v-4.3L24.831,22.292,42.574,10.464Z" transform="translate(5.169 6.633)"/>
+  </g>
+</svg>

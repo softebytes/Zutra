@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <clipPath id="clip-Artboard_57">
+      <rect width="120" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_57" data-name="Artboard – 57" clip-path="url(#clip-Artboard_57)">
+    <rect width="120" height="120" fill="#fff"/>
+    <path id="Icon_awesome-pen" data-name="Icon awesome-pen" d="M13.728,4.4l6.045,6.045L6.647,23.574l-5.389.595A1.133,1.133,0,0,1,.006,22.917l.6-5.393L13.728,4.4Zm9.784-.9L20.673.665a2.268,2.268,0,0,0-3.207,0L14.8,3.335,20.841,9.38l2.67-2.67a2.268,2.268,0,0,0,0-3.207Z" transform="translate(47.913 47.912)"/>
+  </g>
+</svg>

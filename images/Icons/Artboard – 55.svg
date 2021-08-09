@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <clipPath id="clip-Artboard_55">
+      <rect width="120" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_55" data-name="Artboard – 55" clip-path="url(#clip-Artboard_55)">
+    <rect width="120" height="120" fill="#fff"/>
+    <g id="Icon_feather-check-circle" data-name="Icon feather-check-circle" transform="translate(38.069 38.077)">
+      <path id="Path_125" data-name="Path 125" d="M40.862,20.192v1.742a18.931,18.931,0,1,1-11.226-17.3" transform="translate(0 0)" fill="none" stroke="#448107" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Path_126" data-name="Path 126" d="M38.11,6,19.179,24.95,13.5,19.271" transform="translate(2.752 0.789)" fill="none" stroke="#448107" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+  </g>
+</svg>
