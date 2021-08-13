@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="custom.dfbe8ae6.css">
+    <link rel="stylesheet" href="custom.81283339.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet"> 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
@@ -12,16 +12,16 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background:white; border-bottom: 1px solid grey;">
-        <div class="container-fluid" style="padding-left: 40px ;padding-right: 40px;">
-          <a class="navbar-brand" href="index.html"><img src="ZUTRA-LOGO-BLACK (1).190e3184.png" style="max-width: 10rem;"></a>
+    <nav class="navbar navbar-expand-lg navbar-light p-0" style="background:white; border-bottom: 1px solid grey;">
+        <div class="container-fluid" style="padding-left: 10px ;padding-right: 10px;">
+          <a class="navbar-brand" href="index.html"><img src="ZUTRA-LOGO-BLACK (1).190e3184.png" style="max-width: 11rem;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" style="font-size: 20px;">
                 <li class="nav-item dropdown align-items-center">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="shop-clothing.html">
                       Clothing
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -80,26 +80,26 @@
               </li>
             </ul>
             <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="&#xF002; Search for a product or a shop" aria-label="Search">
-                <!--<button class="btn btn-outline-success" type="submit">Search</button>-->
+              <input class="form-control me-2" type="search" placeholder="&#xF002; Search " aria-label="Search" style="border:none; padding:10px; border-radius:5px;">
+               <!--<button class="btn btn-outline-success" type="submit">Search</button>-->
               </form>
-              <ul class="navbar-nav align-items-center">
-                <li>
-                    <a class="nav-link" href="registration.html">Register > Become a seller</a>
+              <ul class="navbar-nav align-items-center m-0 p-0" style="font-size: 18px;">
+                <li class="m-0 p-0">
+                  <a class="nav-link" href="sign-in.html">Sign In</a>
                     </li>
-                    <li>
-                    <p style="margin:0px;">|</p>
+                    <li class="m-0 p-0">
+                    <p style="margin:0px;" class="m-0">|</p>
                     </li>
-                    <li>
-                      <a class="nav-link" href="sign-in.html">Sign In</a>
+                    <li class="m-0 p-0">
+                      <a class="nav-link" href="registration.html">Become a seller</a>
                       </li>
                  </ul>
-                 <ul class="navbar-nav align-items-center">
-                  <li>
-                      <a class="nav-link p-0" href="#"><i class="far fa-heart"></i></a>
+                 <ul class="navbar-nav align-items-center p-0">
+                  <li class="m-0 p-0">
+                      <a class="nav-link p-0 m-0" href="wish-list.html"><img src="Artboard–2.80eb4734.svg" class="p-0 m-0"></a>
                       </li>
-                      <li>
-                        <a class="nav-link p-0" href="#"><i class="far fa-user"></i></a>
+                      <li class="m-0 p-0">
+                        <a class="nav-link p-0 m-0" href="profile.html"><img src="Artboard – 3.e5cc375c.svg" class="p-0 m-0"></a>
                         </li>
                    </ul>
           </div>
@@ -108,7 +108,7 @@
   </header>
       <section>
           <div class="container-fluid">
-              <div class="row align-items-center justify-content-center" style="min-height: 89vh;">
+              <div class="row align-items-center justify-content-center" style="min-height: 90vh;">
                   <div class="col-lg-7 d-flex flex-column align-items-center" style="height: auto;">
                       <img src="ZUTRA-LOGO-BLACK (1).190e3184.png" style="max-width: 40%;">
                       <br><br>
@@ -121,16 +121,16 @@
                       <br>
                       <div>
                         <form>
-                      <input class="d-inline-block m-3 text-center form-control" style="height: 50px;width: 50px;border:1px solid;border-radius:10px; font-size: 2rem;" type="tel" maxlength="1">
-                      <input class="d-inline-block m-3 text-center form-control" style="height: 50px;width: 50px;border:1px solid;border-radius:10px; font-size: 2rem;" type="tel" maxlength="1">
-                      <input class="d-inline-block m-3 text-center form-control" style="height: 50px;width: 50px;border:1px solid;border-radius:10px; font-size: 2rem;" type="tel" maxlength="1">
-                      <input class="d-inline-block m-3 text-center form-control" style="height: 50px;width: 50px;border:1px solid;border-radius:10px; font-size: 2rem;" type="tel" maxlength="1">                
+                      <input id="codeBox1" class="d-inline-block m-3 text-center form-control form-otp" type="tel" maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)">
+                      <input id="codeBox2" class="d-inline-block m-3 text-center form-control form-otp" type="tel" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)">
+                      <input id="codeBox3" class="d-inline-block m-3 text-center form-control form-otp" type="tel" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)">
+                      <input id="codeBox4" class="d-inline-block m-3 text-center form-control form-otp" type="tel" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)">                
                        </form>
                     </div>
-                  <h5>Didn't get the verification code? <strong><a href="#" class="link-dark">Resend</a></strong></h5>
+                  <h5 style="color: grey;">Didn't get the verification code? <strong><a href="#" class="link-dark">Resend</a></strong></h5>
                   <a href="profile.html">Profile Link</a>
                   </div>
-                  <div class="col-lg-5 d-flex flex-column justify-content-end align-items-center" style="min-height: 89vh; background-color: rgb(185, 185, 185);">
+                  <div class="col-lg-5 d-flex flex-column justify-content-end align-items-center" style="min-height: 90vh; background-color: rgb(185, 185, 185);">
                     <div><h1 class="display-4 fw-bold" style="padding-bottom: 13rem;">WELCOME</h1></div>
                     <div><h1 class="pb-4 display-4 fw-bold">स्वागतम्</h1></div>
                 </div>
@@ -158,7 +158,40 @@ window.onload = function () {
   var fiveMinutes = 60 * 2,
       display = document.querySelector('#time');
   startTimer(fiveMinutes, display);
-};</script>
+};
+
+function getCodeBoxElement(index) {
+  return document.getElementById('codeBox' + index);
+}
+
+function onKeyUpEvent(index, event) {
+  var eventCode = event.which || event.keyCode;
+
+  if (getCodeBoxElement(index).value.length === 1) {
+    if (index !== 4) {
+      getCodeBoxElement(index + 1).focus();
+    } else {
+      getCodeBoxElement(index).blur(); // Submit code
+
+      console.log('submit code ');
+    }
+  }
+
+  if (eventCode === 8 && index !== 1) {
+    getCodeBoxElement(index - 1).focus();
+  }
+}
+
+function onFocusEvent(index) {
+  for (item = 1; item < index; item++) {
+    var currentElement = getCodeBoxElement(item);
+
+    if (!currentElement.value) {
+      currentElement.focus();
+      break;
+    }
+  }
+}</script>
 <script src="src.f58a99c2.js"></script>
 </body>
 </html>
