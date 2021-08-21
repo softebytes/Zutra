@@ -15739,6 +15739,11 @@ textarea.form-control-lg {
   display: none;
 }
 
+.booking-form {
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
+
 .white-overlay {
   background: grey;
 }
@@ -15819,4 +15824,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=custom.e670fc79.css.map */
+/*# sourceMappingURL=custom.c3898b61.css.map */
