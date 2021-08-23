@@ -15744,6 +15744,10 @@ textarea.form-control-lg {
   border-bottom: 1px solid lightgrey;
 }
 
+.booking-btn {
+  border-radius: 15px;
+}
+
 .white-overlay {
   background: grey;
 }
@@ -15754,6 +15758,12 @@ textarea.form-control-lg {
   background: black;
   height: 100%;
   width: 100%;
+}
+
+.custom-file-input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .forms-check-input {
@@ -15824,4 +15834,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=custom.c3898b61.css.map */
+/*# sourceMappingURL=custom.b36d9350.css.map */

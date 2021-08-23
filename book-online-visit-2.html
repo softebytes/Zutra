@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="custom.c3898b61.css">
+    <link rel="stylesheet" href="custom.b36d9350.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">
      
@@ -113,16 +113,16 @@
             <div class="container pt-4 d-flex flex-column justify-content-start gap-4" style="min-height: 90vh; padding-left: 3rem; padding-right: 4rem;">
              <div class="d-flex justify-content-between align-items-center p-0" style="padding-left: 1rem; padding-bottom: 1rem; border-bottom: 1px solid  lightgrey;">
                <div>
-               <h1 class="text-uppercase fw-bold">Shivani Saree Shop</h1>
+               <h1 class="text-uppercase fw-bold display-5">Shivani Saree Shop</h1>
              </div>
              <div style="padding-top:1rem;" class="text-end">
                <h6 class="fw-bold">Tomorrow, 17th May</h6>
                <h6 class="fw-bold">8:00PM</h6>
              </div>
-             </div>
+             </div><br>
              <form action="book-online-completed.html" class="needs-validation" novalidate="">
              <div class="d-flex flex-column justify-content-evenly" style="padding:.5rem 7rem 1rem 1rem;">
-                 <h4 class="fw-bold">Please help us by filling up this form:</h4>
+                 <h3 class="fw-bold">Please help us by filling up this form:<br><br>
                  <div class="d-flex justify-content-between gap-5 align-items-center" style="padding-top: 1rem;">
                    <label style="min-width: 20%;"><h5 class="m-0">Name</h5></label>
                    <input class="w-50 form-control booking-form" type="text" name="FirstName" placeholder="First Name" required="">
@@ -145,7 +145,13 @@
                   </div>
                   <div class="d-flex justify-content-between gap-5 align-items-center " style="padding-top: 1rem;">
                     <label style="min-width: 20%;"><h5 class="m-0">Whatsapp No.</h5></label>
-                    <input class="w-100 form-control booking-form" type="tel" name="PhoneNumber" minlength="10" maxlength="10" placeholder="+91   |   Mobile number" required="">
+                    <div class="input-group align-items-center">
+                      <select class="booking-form form-select" id="basic-addon1" style="max-width: 30%; " required=""> 
+
+                      </select>
+                      <span class="m-0 p-0" style="color:lightgrey;font-size: 16px;">|</span>
+                    <input class="form-control booking-form" type="tel" name="PhoneNumber" pattern="[0-9]+" minlength="10" maxlength="10" placeholder="Mobile number" required="">
+                  </div>
                   </div>
                   <div class="d-flex justify-content-between align-items-center gap-5" style="padding-top: 1rem;">
                     <label style="min-width: 20%;"><h5 class="m-0">Occasion</h5></label>
@@ -164,46 +170,29 @@
                     <label style="width:27%;"><h5 class="m-0">Upload Reference Product Images</h5></label>
                     <div class="d-flex w-100 gap-2">
                     <div class="d-flex flex-column justify-content-center align-items-center w-50" style="min-height: 20vh; border:1px solid lightgrey">
-                      <i class="fas fa-upload fa-2x" style="color: lightgrey;"></i>
+                      <label for="custom-input" class="d-flex justify-content-center" style="cursor: pointer;"><img src="Icons-49.7087bcb4.png" style="max-width: 30%;"></label>
+                      <input type="file" name="filename" id="custom-input" class="custom-file-input">
                       <p class="m-0" style="font-size: 14px; color: lightgrey;">Choose File</p>
                       <p class="m-0" style="font-size: 10px; color: lightgrey;">Size Limit: 10mb</p>
                     </div>
                     <div class="d-flex flex-column justify-content-center align-items-center w-50" style="min-height: 20vh; border:1px solid lightgrey">
-                      <i class="fas fa-upload fa-2x" style="color: lightgrey;"></i>
+                      <label for="custom-input" class="d-flex justify-content-center" style="cursor: pointer;"><img src="Icons-49.7087bcb4.png" style="max-width: 30%;"></label>
+                      <input type="file" name="filename" id="custom-input" class="custom-file-input">
                       <p class="m-0" style="font-size: 14px; color: lightgrey;">Choose File</p>
                       <p class="m-0" style="font-size: 10px; color: lightgrey;">Size Limit: 10mb</p>
                     </div>
                     <div class="d-flex flex-column justify-content-center align-items-center w-50" style="min-height: 20vh; border:1px solid lightgrey">
-                      <i class="fas fa-upload fa-2x" style="color: lightgrey;"></i>
+                      <label for="custom-input" class="d-flex justify-content-center" style="cursor: pointer;"><img src="Icons-49.7087bcb4.png" style="max-width: 30%;"></label>
+                      <input type="file" name="filename" id="custom-input" class="custom-file-input">
                       <p class="m-0" style="font-size: 14px; color: lightgrey;">Choose File</p>
                       <p class="m-0" style="font-size: 10px; color: lightgrey;">Size Limit: 10mb</p>
                     </div>
                   </div>
                   </div>
-                  </div>
-                  <div class="d-flex flex-column justify-content-around gap-2" style="padding:1rem 0 1rem 1rem; border-bottom: 1px solid lightgrey; border-top: 1px solid  lightgrey;">
-                    <div>
-                    <h5 class="fw-bold">The video appointment is for: </h5>
-                    </div>
-                    <div class=" d-flex gap-5 p-0 form-check">
-                      <div class="w-50 d-flex align-items-center">
-                      <input class="form-check-input" required="" type="radio" value="" name="flexRadioDefault" id="flexRadioDefault-2-1" style="font-size:30px;margin:0 1rem 0 0;">
-                      <label class="form-check-label" for="flexCheckDefault"><h5 class="m-0">
-                        Myself
-                        </h5>
-                      </label>
-                    </div>
-                    <div class="w-50 d-flex align-items-center form-check">
-                      <input class="form-check-input" required="" type="radio" value="" name="flexRadioDefault" id="flexRadioDefault-2-2" style="font-size:30px;margin:0 1rem 0 0;">
-                      <label class="form-check-label" for="flexCheckDefault"><h5 class="m-0">
-                        Someone Else
-                        </h5>
-                      </label>
-                    </div>
-                  </div>
-                  </div>
+                  </h3></div>
+
                   <div class="pt-4 mb-4 w-100 d-flex justify-content-end align-items-center">
-                  <button class="btn btn-dark d-flex justify-content-between align-items-center p-3" type="submit" style="font-size: 14px; width: 20%; height: 3rem;"><span>CONFIRM</span><span>></span> </button>
+                  <button class="btn btn-dark d-flex justify-content-between align-items-center p-3" type="submit" style="font-size: 14px; width: 17%; border-radius: 10px;"><span>CONFIRM</span><span>></span> </button>
                   <a href="book-online-completed.html"></a>    
                 </div>
                 </form>
