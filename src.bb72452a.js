@@ -8030,11 +8030,29 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 (function () {
   'use strict'; // Fetch all the forms we want to apply custom Bootstrap validation styles to
 
-  var forms = document.querySelectorAll('.needs-validation'); // Loop over them and prevent submission
+  var forms = document.querySelectorAll('.needs-validation');
+  var checkedBoxes2 = document.querySelectorAll(".checkbox-checks"); // Loop over them and prevent submission
 
   Array.prototype.slice.call(forms).forEach(function (form) {
     form.addEventListener('submit', function (event) {
-      if (!form.checkValidity()) {
+      var checkedBoxes = document.querySelectorAll('.checkbox-checks:checked');
+      var failed = false;
+
+      if (checkedBoxes.length > 0) {
+        for (var i = 0; i < checkedBoxes2.length; i++) {
+          checkedBoxes2[i].removeAttribute("required");
+        }
+      } else {
+        for (var _i = 0; _i < checkedBoxes2.length; _i++) {
+          checkedBoxes2[_i].setAttribute("required", "");
+        }
+      }
+
+      if (form.checkValidity() === false) {
+        failed = true;
+      }
+
+      if (failed == true) {
         event.preventDefault();
         event.stopPropagation();
       }
@@ -8044,4 +8062,4 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
   });
 })();
 },{"bootstrap":"xqrD"}]},{},["Focm"], null)
-//# sourceMappingURL=src.f58a99c2.js.map
+//# sourceMappingURL=src.bb72452a.js.map
