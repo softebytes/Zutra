@@ -4629,6 +4629,26 @@ readers do not read off random characters that represent icons */
   src: url(AvenirLTStd-Book.3a21a093.otf);
   font-weight: normal;
 }
+@font-face {
+  font-family: Avenir;
+  src: url(AvenirLTStd-Book.3a21a093.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: Avenir;
+  src: url(AvenirLTStd-Book.3a21a093.otf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: Avenir;
+  src: url(AvenirLTStd-Book.3a21a093.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Avenir;
+  src: url(AvenirLTStd-Book.3a21a093.otf);
+  font-weight: 900;
+}
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -15834,4 +15854,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=custom.b36d9350.css.map */
+/*# sourceMappingURL=custom.f173d89b.css.map */
